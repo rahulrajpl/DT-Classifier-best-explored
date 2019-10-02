@@ -1,6 +1,6 @@
-# Train-Until-Best-Estimate (TUBE) strategy for training best classifier
+# Train-Until-Best-Estimate (TUBE) strategy
 
-Trainer program for Decision Tree Classifier.
+Trainer program for training a Decision Tree Classifier with maximum possible accuracy.
 
 Program trains a decision tree classifier available from sklearn library.
 Training is undertaken using 3 folded RandomizedSearch cross validation of 
@@ -28,28 +28,38 @@ Ensure that they are installed using the command `pip install -r requirements.tx
 	
 Note: This program is developed and tested only on ubuntu 18.04. 
 
-### Installing
+### Installing and Deployment
 
-clone this repo to your local machine when pre requisites are met. That is all.
+clone this repo to your local machine when pre requisites are met. That is all. Walk through following 
+steps to reproduce the results claimed.
 
+1. Open Terminal in that folder
+2. create a virtual environment using command `virtualenv venv`
+3. Activate Virtual Env using command `source venv/bin/activate`
+4. Install all the dependencies using command `pip install -r requirements.txt`
+5. Once the installation is completed, run command `python3 train.py`
+6. Once training is completed, run command `python3 test.py n_samples n_iterations`
+
+Example usage
+```
+python3 test.py 2000 10
+python3 test.py 100 10
+python3 test.py 4150 10
+```
 
 ## Built With
 
-* [sklearn](https://scikit-learn.org/stable/) - Just another data science library
-* [python](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [sklearn](https://scikit-learn.org/stable/) - Just another data science library :)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Drop a pull request with details.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Author
+## Authors
 
 * **Rahul Raj** - *Initial work* - [Website](https://randomwalk.in)
+* **Sai Charan** - *Enhancement* 
+* **K Parvez** - *Enhancement*
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
