@@ -7,6 +7,13 @@ Training is undertaken using 3 folded RandomizedSearch cross validation of
 random 75% of available dataset. Balance 25% percent is used to test the model.
 If the required accuracy is not achieved then program automatically runs again.
 
+#### "Training phase to find the best model"
+![Training in progress _ pic](/imgs/training_bestaccbestFN.png?raw=true "Training phase to find the best model")
+
+#### "Testing phase with accuracy terms"
+![test_ pic](/imgs/testingphase.png?raw=true "Test phase to find the best model")
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
