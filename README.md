@@ -65,8 +65,8 @@ Drop a pull request with details.
 ## Authors
 
 * **Rahul Raj** - *Initial work* - [Website](https://randomwalk.in)
-* **Sai Charan** - *Enhancement* 
-* **K Parvez** - *Enhancement*
+* **Sai Charan** - *Contributor* -[Website](http://pvsaicharan.in/)
+* **K Parvez** - *Contributor*
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
