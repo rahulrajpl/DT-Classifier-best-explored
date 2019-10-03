@@ -54,11 +54,11 @@ steps to reproduce the results claimed.
 
 ### Method 2. (Easy way)
 This method requires docker to be installed on the host machine. Simply run the following 
-command to pull the docker image with programs pre installed in the folder /home. Then follow 
+command to pull the docker image (less than 150 MB) with programs pre installed in the folder /home. Then follow 
 step 5 and step 6 in the above method.
 
 ```
-docker pull rahulrajpl/cs631
+docker pull rahulrajpl/clf
 ```
 
 ## Example usage
