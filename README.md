@@ -20,7 +20,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-1. Python 3.6 or above installed. Install it as per instructions in official documentation of python
+1. Python 3.6 or above installed. Install using command
+	`sudo apt-get install python3.6`
 2. Python3-tk installed. Install using command 
 	`sudo apt-get install python3-tk`
 3. 'virtualenv' installed. Install using command 
