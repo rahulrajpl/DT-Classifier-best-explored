@@ -40,26 +40,31 @@ Note: This program is developed and tested only on ubuntu 18.04.
 
 There are two ways to install and test this program.
 
-### Method 1.
+### Method 1. (Easy way)
+
+This method requires docker to be installed on the host machine. Simply run the following
+command to pull the docker image (less than 150 MB) with programs pre installed in the folder /home. 
+
+```
+docker pull rahulrajpl/clf
+```
+Trained models are available in the root folder itself. To start testing use following commands
+To run model with best overall accuracy `python3 test.py 4150 10 best.model`
+To run model with best False Positive rate `python3 test.py 4150 10 bestfp.model`
+To run model with best False Negative rate `python3 test.py 4150 10 bestfn.model`
+
+
+### Method 2.
 
 clone this repo to your local machine when pre requisites are met. That is all. Walk through following 
 steps to reproduce the results claimed.
 
-1. Open Terminal in that folder
+1. Open terminal in the uncompressed folder
 2. create a virtual environment using command `virtualenv venv`
 3. Activate Virtual Env using command `source venv/bin/activate`
 4. Install all the dependencies using command `pip install -r requirements.txt`
 5. Once the installation is completed, run command `python3 train.py`
 6. Once training is completed, run command `python3 test.py n_samples n_iterations`
-
-### Method 2. (Easy way)
-This method requires docker to be installed on the host machine. Simply run the following 
-command to pull the docker image (less than 150 MB) with programs pre installed in the folder /home. Then follow 
-step 5 and step 6 in the above method.
-
-```
-docker pull rahulrajpl/clf
-```
 
 ## Example usage
 
@@ -75,9 +80,9 @@ pydoc train
 
 Once the model is ready, run following commands to test the program
 ```
-python3 test.py 2000 10
-python3 test.py 100 10
-python3 test.py 4150 10
+python3 test.py 4150 10 best.model
+python3 test.py 4150 10 bestfp.model
+python3 test.py 4150 10 bestfn.model
 ```
 
 ## Built With
