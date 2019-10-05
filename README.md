@@ -1,4 +1,4 @@
-# Train-Until-Best-Estimate (TUBE) strategy
+# Train-Until-Best-Estimate strategy
 
 Trainer program for training a Decision Tree Classifier with maximum possible accuracy.
 
