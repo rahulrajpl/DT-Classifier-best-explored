@@ -49,7 +49,8 @@ Ensure that **Python3.6**, **python3-tk**, **virtualenv** and **pip**. If not av
 6.  For testing run following command 
 	
 	```
-	>> python3 test.py <n_samples> <n_iterations> [OPTIONAL model_file]```
+	>> python3 test.py <n_samples> <n_iterations> [OPTIONAL model_file]
+    ```
 
 ###	Example usage
 ------------
